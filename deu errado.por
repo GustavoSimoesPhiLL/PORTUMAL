@@ -1,29 +1,33 @@
 programa
 {
-funcao inicio()
-{
-inteiro opcao 
-escreva("1) elogio em  ");
-escreva("2) ofensa em  ");
-escreva("3) Sair em  ");
-escreva(" Escolha uma OPCAO  ");
-leia(opcao);
-limpa();
-}
-escolha (opcao){
-caso 1 :
-escreva(" voce e lindo! ");
-pare;
-caso 2 :
-escreva(" voce e um monstro! ");
-pare;
-caso 3 :
-escreva(" Tchau ");
-pare;
-caso contrario:
-escreva(" opcao invalida !  ");    
-}
-}
+	
+	funcao inicio()
+	{
+		inteiro opcao
+		escreva(" ( 1 ) elogio\n")
+		escreva(" ( 2 ) ofensa\n")
+		escreva(" ( 3 ) sair\n")
+		escreva(" Escolha uma opcao: " )
+	     leia(opcao)
+	     limpa()
+	     escolha(opcao)
+	     {
+	     	caso 1 :
+	     	escreva("você é lindo(a)! ")
+	     	pare
+	     	
+	     	caso 2 :
+	     	escreva("Você é um monstro")
+	     	pare
+	     	
+	     	caso 3 :
+	     	escreva("Tchau!")
+	     	pare
+	     	
+	     	caso contrario :
+	     	escreva("Opção inválida!")
+	     }
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
